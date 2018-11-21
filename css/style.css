@@ -1,0 +1,52 @@
+body {
+    margin: 15px;
+ 
+}
+img {
+    min-width: 600px;
+    min-height: 400px;
+}
+
+.gallery{
+    display:flex;
+    flex-direction: row;
+}
+
+div {
+    flex: 1;
+}
+
+h1 {
+    color:orange;
+}
+
+.ingredients-bk{
+    background-color: orange;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+img {
+    min-width: 10vw;
+    min-height: 10vw;
+}
+
+@media only screen and (max-width:600px) {
+    img {
+        min-width: 5vw;
+        max-width: 100vw;
+        min-height: 5vw;
+        max-height: 100vw;
+    }
+
+    .gallery{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 15%;
+        
+    }
+    
+
+    
+}
